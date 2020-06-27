@@ -322,14 +322,14 @@ export default [
         helpLink: "https://scratch.mit.edu/vernier",
     },
     {
-        name: "Blocks",
+        name: "NewBlocks",
         extensionId: "newblocks",
         collaborator: "Me",
         iconURL: newBlockImage,
         insetIconURL: newBlockButtonImage,
         description: (
             <FormattedMessage
-                defaultMessage="追加で作成した機能です。"
+                defaultMessage="New blocks."
                 description="my block"
                 id="gui.extension.newblocks.description"
             />
