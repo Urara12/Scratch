@@ -17,7 +17,9 @@
         "test:lint": "eslint . --ext .js,.jsx",
         "test:unit": "jest test[\\\\/]unit",
         "test:smoke": "jest --runInBand test[\\\\/]smoke",
-        "watch": "webpack --progress --colors --watch"
+        "watch": "webpack --progress --colors --watch",
+        "migrate": "knex migrate:latest --knexfile back/knex.js",
+        "rollback": "knex migrate:rollback --knexfile back/knex.js"
     },
     "author": "Massachusetts Institute of Technology",
     "license": "BSD-3-Clause",
